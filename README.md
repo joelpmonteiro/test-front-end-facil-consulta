@@ -11,11 +11,11 @@ npm install
 ```
 - Dependências usadas
 ```
-bootstrap"
-"vue-router"
-vue-the-mask"
-vuelidate
-vuex
+- bootstrap
+- vue-router
+- vue-the-mask
+- vuelidate
+- vuex
 ```
 
 ### Compiles and hot-reloads for development

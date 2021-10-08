@@ -5,6 +5,19 @@
 npm install
 ```
 
+## Executar Projeto
+```
+npm install
+```
+- Dependências usadas
+```
+bootstrap"
+"vue-router"
+vue-the-mask"
+vuelidate
+vuex
+```
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve

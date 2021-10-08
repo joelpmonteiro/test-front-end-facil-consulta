@@ -1,0 +1,51 @@
+/* Comfortaa */
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('../fonts/Comfortaa-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Comfortaa Bold';
+    src: url('../fonts/Comfortaa-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Comfortaa Light';
+    src: url('../fonts/Comfortaa-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Comfortaa Medium';
+    src: url('../fonts/Comfortaa-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Comfortaa SemiBold';
+    src: url('../fonts/Comfortaa-SemiBold.ttf');
+}
+
+/* Open Sans */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: url('../fonts/OpenSans/OpenSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url('../fonts/OpenSans/OpenSans-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Open Sans Medium';
+    src: url('../fonts/OpenSans/OpenSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Open Sans SemiBold';
+    src: url('../fonts/OpenSans/OpenSans-SemiBold.ttf');
+}

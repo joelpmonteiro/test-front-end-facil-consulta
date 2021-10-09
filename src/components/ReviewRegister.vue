@@ -75,13 +75,6 @@
               :key="index"
             >
               <span
-                v-if="getRegisterProfisional.payment[index] === '3'"
-                class="desc-txt"
-              >
-                Cartão de Credito - Parcelamento em
-                {{ getRegisterProfisional.parcel }}
-              </span>
-              <span
                 v-if="getRegisterProfisional.payment[index] === '1'"
                 class="desc-txt"
               >
@@ -94,6 +87,13 @@
                 Pix.
               </span>
             </div>
+            <span
+              v-if="getRegisterProfisional.cred"
+              class="desc-txt"
+            >
+              Cartão de Credito - Parcelamento em
+              {{ getRegisterProfisional.parcel }}
+            </span>
           </div>
           <!-- FIM DOS CAMPOS -->
           <btn

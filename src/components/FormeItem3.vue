@@ -74,13 +74,6 @@
               :key="index"
             >
               <span
-                v-if="listProfisional.payment[index] === '3'"
-                class="desc-txt"
-              >
-                Cartão de Credito - Parcelamento em
-                {{ listProfisional.parcel }}
-              </span>
-              <span
                 v-if="listProfisional.payment[index] === '1'"
                 class="desc-txt"
               >
@@ -93,6 +86,13 @@
                 Pix.
               </span>
             </div>
+            <span
+              v-if="listProfisional.cred"
+              class="desc-txt"
+            >
+              Cartão de Credito - Parcelamento em
+              {{ listProfisional.parcel }}
+            </span>
           </div>
           <!-- FIM DOS CAMPOS -->
           <button
